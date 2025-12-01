@@ -19,3 +19,7 @@
 5. [Alympics: LLM Agents meet Game Theory Exploring Strategic Decision-Making with AI Agents](2311.03220_Alympics.pdf)
    - arXiv: 2311.03220
    - Topic: Multi-agent competition including Werewolf.
+
+6. [MultiMind: Enhancing Werewolf Agents with Multimodal Reasoning and Theory of Mind](2504.18039_MultiMind_ToM.pdf)
+   - arXiv: 2504.18039
+   - Topic: Multimodal reasoning and Theory of Mind modeling in Werewolf.

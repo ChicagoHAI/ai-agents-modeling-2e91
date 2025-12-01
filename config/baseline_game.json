@@ -1,0 +1,45 @@
+{
+  "name": "Werewolf-Baseline",
+  "global_prompt": "You are playing a game of Werewolf with 6 other players (7 total).\n\nRoles:\n- Moderator: Runs the game.\n- Werewolf (x2): Kills one villager each night. Wins if Werewolves >= Villagers.\n- Seer (x1): Checks one player's role each night.\n- Guard (x1): Protects one player each night.\n- Villager (x3): Votes to eliminate a Werewolf during the day. Wins if all Werewolves are eliminated.\n\nGame Phases:\n1. Night: Werewolves kill, Seer checks, Guard protects.\n2. Day: Discussion and Voting.\n\nRules:\n- Do not reveal your role directly unless it is strategic.\n- If you are a Werewolf, deceive others.\n- If you are a Villager, find the truth.\n",
+  "environment": {
+    "env_type": "werewolf",
+    "parallel": false
+  },
+  "players": [
+    {
+      "name": "Player 1",
+      "role_desc": "You are Player 1. Do not pretend to be others.",
+      "backend": { "backend_type": "simple-werewolf", "temperature": 0.5, "max_tokens": 100, "model": "gpt-3.5-turbo" }
+    },
+    {
+      "name": "Player 2",
+      "role_desc": "You are Player 2. Do not pretend to be others.",
+      "backend": { "backend_type": "simple-werewolf", "temperature": 0.5, "max_tokens": 100, "model": "gpt-3.5-turbo" }
+    },
+    {
+      "name": "Player 3",
+      "role_desc": "You are Player 3. Do not pretend to be others.",
+      "backend": { "backend_type": "simple-werewolf", "temperature": 0.5, "max_tokens": 100, "model": "gpt-3.5-turbo" }
+    },
+    {
+      "name": "Player 4",
+      "role_desc": "You are Player 4. Do not pretend to be others.",
+      "backend": { "backend_type": "simple-werewolf", "temperature": 0.5, "max_tokens": 100, "model": "gpt-3.5-turbo" }
+    },
+    {
+      "name": "Player 5",
+      "role_desc": "You are Player 5. Do not pretend to be others.",
+      "backend": { "backend_type": "simple-werewolf", "temperature": 0.5, "max_tokens": 100, "model": "gpt-3.5-turbo" }
+    },
+    {
+      "name": "Player 6",
+      "role_desc": "You are Player 6. Do not pretend to be others.",
+      "backend": { "backend_type": "simple-werewolf", "temperature": 0.5, "max_tokens": 100, "model": "gpt-3.5-turbo" }
+    },
+    {
+      "name": "Player 7",
+      "role_desc": "You are Player 7. Do not pretend to be others.",
+      "backend": { "backend_type": "simple-werewolf", "temperature": 0.5, "max_tokens": 100, "model": "gpt-3.5-turbo" }
+    }
+  ]
+}
