@@ -1,0 +1,8 @@
+# Exclude all data files
+*
+
+# Include documentation and metadata
+!.gitignore
+!README.md
+!**/README.md
+!**/samples/

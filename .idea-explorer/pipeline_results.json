@@ -1,0 +1,17 @@
+{
+  "success": false,
+  "stages": {
+    "resource_finder": {
+      "success": false,
+      "completion_marker": null,
+      "outputs": {
+        "papers_dir": "/data/hypogenicai/workspaces/ai-agents-modeling-2e91/papers",
+        "datasets_dir": "/data/hypogenicai/workspaces/ai-agents-modeling-2e91/datasets",
+        "code_dir": "/data/hypogenicai/workspaces/ai-agents-modeling-2e91/code"
+      },
+      "log_file": "/data/hypogenicai/workspaces/ai-agents-modeling-2e91/logs/resource_finder_gemini.log",
+      "elapsed_time": 321.49607515335083
+    }
+  },
+  "work_dir": "/data/hypogenicai/workspaces/ai-agents-modeling-2e91"
+}
